@@ -1,0 +1,6 @@
+dfasfdasdfasfdas
+
+
+<?php 
+phpinfo();
+?>
