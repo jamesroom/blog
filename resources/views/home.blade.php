@@ -1,6 +1,7 @@
 @extends('layout')
 @section('content')
     <div class="slider-con">
+        <img src="/images/slide1.png"/>
     </div>
 
     <div>
