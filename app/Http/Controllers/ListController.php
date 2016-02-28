@@ -67,11 +67,6 @@ class ListController extends Controller
                 "desc" => "日常的活动页面、全屏",
                 "time" => "2015年6月"
             ),
-            array(
-                "title" => "花卉门票",
-                "desc" => "三折页，活动、产品宣传页、共6面",
-                "time" => "2014年11月"
-            ),
 
             array(
                 "title" => "详情页",
