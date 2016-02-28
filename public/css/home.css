@@ -178,7 +178,7 @@ a:hover{
     margin: 40px 0;
 }
 
-.intro a{
+.intro .intro-a{
     position: absolute;
     bottom: 25px;
     right: 250px;

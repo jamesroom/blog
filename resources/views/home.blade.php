@@ -86,6 +86,6 @@
         <a href="/aboutme">
             <img src="/images/who_am.png"/>
         </a>
-        <a href="/aboutme">点击了解我&gt;&gt;</a>
+        <a class="intro-a" href="/aboutme">点击了解我&gt;&gt;</a>
     </div>
 @endsection
