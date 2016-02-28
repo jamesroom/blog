@@ -1,0 +1,53 @@
+.list .item{
+    border-bottom: 1px dashed #666666;
+}
+
+
+.list-main{
+    overflow: hidden;
+}
+
+.PL{
+    float: left;
+    width: 250px;
+}
+
+.PR{
+    float: right;
+    width: 720px;
+}
+
+.item .title{
+    font-size: 16px;
+}
+
+.item .desc{
+    color: #666;
+    line-height: 30px;;
+}
+
+.time .time-st{
+    color:#1675c5;
+
+}
+
+.item{
+    box-sizing: border-box;
+    height: 140px;
+    padding: 40px 0 15px;
+    border-bottom: 1px dashed #ccc;
+    position: relative;
+}
+
+.item img{
+    position: absolute;
+    right: 0;
+    top: 27px;
+
+}
+
+.pager{
+    text-align: center;
+    line-height: 80px;
+    color: #666;
+}
