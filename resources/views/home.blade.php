@@ -1,8 +1,38 @@
 @extends('layout')
 @section('content')
-    <div class="slider-con">
-        <img src="/images/slide1.png"/>
+    <script type="text/javascript" src="{{ URL::asset('/') }}js/lib/jssor.slider.min.js"></script>
+    <div class="slider-con J_Slider" id="J_Slider">
+
+
+        <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 990px; height: 470px;">
+            <!-- Slides Container -->
+            <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 990px; height: 470px;">
+                <div><a target="_blank" href="/aboutme"><img u="image" src="/images/slider1.png" /></a></div>
+                <div><a target="_blank" href="/aboutme"><img u="image" src="/images/slider2.png" /></a></div>
+            </div>
+        </div>
     </div>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            var transition = [
+                //{$Duration:1500,x:0.2,y:-0.1,$Delay:80,$Cols:8,$Rows:4,$Clip:15,$During:{$Left:[0.2,0.8],$Top:[0.2,0.8]},$ChessMode:{$Column:15,$Row:15},$Easing:{$Left:$JssorEasing$.$EaseInWave,$Top:$JssorEasing$.$EaseInWave,$Clip:$JssorEasing$.$EaseLinear},$Outside:true,$Round:{$Left:0.8,$Top:2.5}}
+                //{$Duration:1500,x:0.2,y:-0.1,$Delay:20,$Cols:8,$Rows:4,$Clip:15,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$Formation:$JssorSlideshowFormations$.$FormationSwirl,$Assembly:260,$Easing:{$Left:$JssorEasing$.$EaseInWave,$Top:$JssorEasing$.$EaseInWave,$Clip:$JssorEasing$.$EaseOutQuad},$Outside:true,$Round:{$Left:0.8,$Top:2.5}}
+            ];
+            var options = {
+                $Idle: 5000,
+                $AutoPlay: true,
+                $SlideshowOptions: {
+                    $Class: $JssorSlideshowRunner$,
+                    $Transitions:transition ,
+                    $TransitionsOrder: 1,
+                    $ShowLink: true
+                }
+            };
+            var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+        });
+
+
+    </script>
 
     <div>
         <a href="/graphic">

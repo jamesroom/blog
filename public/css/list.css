@@ -1,4 +1,5 @@
 .list .item{
+    cursor: pointer;
     border-bottom: 1px dashed #666666;
 }
 
