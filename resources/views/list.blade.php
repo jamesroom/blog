@@ -2,7 +2,9 @@
 @section('content')
     <link rel="stylesheet" href="{{ URL::asset('/') }}css/list.css"></link>
     <div class="list-main">
-        <div class="PL"></div>
+        <div class="PL">
+            <img src="/images/left.png" width="250px"/>
+        </div>
         <div class="PR">
             <ul class="list">
 
