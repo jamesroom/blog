@@ -133,8 +133,10 @@ a:hover{
     color: #fff;
     box-sizing: border-box;
     padding-top: 10px;
-    line-height: 22px;;
+    line-height: 22px;
+    position: relative;
 }
+
 
 .mail-to a:link, .mail-to a:visited{
     color: #fff;
